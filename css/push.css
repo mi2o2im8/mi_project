@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Maplestory;
+    src: url('../font/Maplestory-Light.ttf');
+}
+
+*{
+    margin:0%; padding:0%; box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Maplestory';
+}
+.home_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Home_btn{
+    font-size: 50px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.push_box{
+    /* display: flex; */
+    background: linear-gradient(135deg, #c9a7ff, #ffc8db);
+    border: 2px solid red;
+    margin: 80px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+#push_name{
+    font-size: 30px;
+}
+
+.push_list_box{
+    background-color: #eaddff;
+    font-size: 25px;
+    margin: 20px;
+
+}
+
+.notice_item_upload{
+    background-color: #ffc8db;
+}
+
+.notice_item{
+    background-color: #ecff80;
+}

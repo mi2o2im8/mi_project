@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Maplestory;
+    src: url('../font/Maplestory-Light.ttf');
+}
+
+*{
+    margin:0%; padding:0%; box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Maplestory';
+}
+
+/* .page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px;
+} */
+
+.home_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+
+#Home_btn{
+    font-size: 50px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.big_box{
+    width: 40%;
+    padding: 15px;
+    margin: 20% auto;
+    margin-top: 20px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background: linear-gradient(135deg, #c9a7ff, #ffc8db);
+}
+
+#id, #pw{
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+}
+
+button{
+    padding: 10px 40px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+}
