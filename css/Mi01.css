@@ -67,7 +67,7 @@
 #push{
     width: 50px;
     padding: 10px;
-    background-image: url("/Me2/image/push_1.png");
+    background-image: url("../image/push_1.png");
     /* background: #ffce83dc; */
     border-radius: 5px;
     text-decoration: none;
