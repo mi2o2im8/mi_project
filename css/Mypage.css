@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Maplestory;
+    src: url('../font/Maplestory-Light.ttf');
+}
+
+*{
+    margin:0%; padding:0%; box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Maplestory';
+}
+
+h1{
+    margin-top: 4rem;
+    font-size: 35px;
+    color: #2b2b2b;
+}
+
+.page_big_box >*{
+    margin-top: 1.5rem;
+}
+
+.page_big_box{
+    position: relative;
+    margin: 100px auto;
+    padding-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #c9a7ff, #ffc8db);
+
+    padding: 2rem;
+    width: min(90%, 550px);
+    min-height: 700px;
+    border-radius: 10px;
+}
+
+#go_home{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../image/home_btn.png');
+    background-size: cover;
+}
+
+.img_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#my_img{
+    width: 230px;
+    max-width: 40vw;
+    font-size: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px dashed rgb(231, 238, 255);
+}
+
+#img_selet_btn{
+    align-self: flex-end;
+}
+
+h3{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(101, 68, 109);
+}
+
+#nickname{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0.5rem;
+}
+
+#text_box{
+    width: 350px;
+    height: 80px;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+#save_btn{
+    font-size: 20px;
+    color: #272727be;
+    background-color: rgba(184, 243, 66, 0.61);
+    padding: 4px;
+    border-radius: 4px;
+}
