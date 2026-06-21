@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Maplestory;
+    font-family: 'Maplestory';
     src: url('../font/Maplestory-Light.ttf');
 }
 
@@ -24,7 +24,8 @@
 }
 
 .h_main{
-    /* flex: 1; */
+    display: flex;
+    flex: 1;
     flex-direction: column;
 }
 
@@ -45,8 +46,11 @@
 }
 
 #search_box_input{
-    width: 880px;
+    width: 100%;
+    max-width: 800px;
     height: 40px;
+
+
 }
 
 .header_login_box{
@@ -119,23 +123,42 @@
     margin-top: 0.5rem;
 }
 
+#point_p{
+    font-size: 1rem;
+}
+
 .title{
     background-color: #fffcf8;
 }
 
-.body_box{
+.view_body_box{
     background-color: #eadeff;
     padding: 3rem;
     margin: 0.8rem;
     border-radius: 10px;
 }
 
+.title_write_box{
+    padding: 1rem;
+    border: 2px solid rgb(160, 160, 160);
+    background-color: #dcffd8;
+    border-radius: 5px;
+}
+
 .shrimp_box{
-    background-color: #ff54cc;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.shrimp_box dl{
+    display: inline-block; 
+    padding: 0rem 2rem;
+    border-right: 1px solid rgb(219, 219, 219);
 }
 
 .text_log{
-    background-color: #7fff73;
+    background-color: #dcffd8;
 }
 
 .title_write_box{
@@ -154,6 +177,24 @@
     background-color: #7fff73;
     padding: 10px;
     border-radius: 5px;
+}
+
+textarea{
+    margin-top: 1rem;
+    resize: none;
+    width: 100%;
+    max-width: 750px;
+    height: 50px;
+    padding: 1rem;
+}
+
+#upload_btn{
+    /* border: none; */
+    border-color: #7fff73;
+    background-color: #d5a2ff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 

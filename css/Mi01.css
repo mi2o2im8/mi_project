@@ -25,6 +25,7 @@
 .h_main{
     /* flex: 1; */
     flex-direction: column;
+    margin: 1rem;
 }
 
 .header{
@@ -111,12 +112,13 @@
     flex: 1;
     grid-template-columns: 1fr 1fr 1fr;
     border: 3px solid rgb(186, 102, 255);
-    background:linear-gradient(135deg,#ffa7cb, #f4ffb4);
+    background:linear-gradient(135deg,#ffa7cb, #f3c2ff);
+    border-radius: 10px;
 }
 
-/* @media (max-width: 1200px){ */
 .Big_box_1{
     display: flex;
+    margin: 1rem;
 }
 
 .section{
@@ -148,6 +150,17 @@
     top: 0px;
 }
 
+.board_box h1{
+    color: #aa155b;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.board_box p{
+    margin-left: 10rem;
+}
+
 #shb{
     width: 30px;
     height: 30px;
@@ -158,8 +171,9 @@
 .gauge{
     width: 250px;
     margin: 5px auto;
-    background-color: #ffb889;
-    /* border: 2px solid rgb(255, 84, 184); */
+    background-color: #ffffffa8;
+    padding: 1rem;
+    border-radius: 5px;
 }
 .fill{
     width: 150px;
@@ -178,22 +192,35 @@
 }
 
 .img_btn{
-    border: 2px solid green;
+    border: 2px solid rgb(128, 0, 111);
+    border-radius: 10px;
     width: 100%;
     height: auto;
     display: block;
+    background-color: #c092df;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#Now_box{
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
 }
 
 .pups{
     display: flex;
     position: relative;
+    margin: 1rem;
+    border: 2px solid rgb(46, 46, 46);
 }
 
 .pup_box{
     position: relative;
     background-color: #51b3a2;
     width: 270px;
-    height: 350px;
+    height: 330px;
     /* border: 2px solid red; */
 }
 
@@ -206,7 +233,7 @@
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
     width: 270px;
-    height: 100px;
+    height: 80px;
     /* border: 2px solid rgb(153, 170, 0); */
     bottom: 0px;
 }

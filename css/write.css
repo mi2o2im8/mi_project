@@ -45,7 +45,8 @@
 }
 
 #search_box_input{
-    width: 880px;
+    width: 100%;
+    max-width: 880px;
     height: 40px;
 }
 
@@ -155,7 +156,7 @@
     gap: 1rem;
 }
 
-#samll_text_box{
+.samll_text_box{
     margin-top: 1rem;
     width: 70rem;
     height: 20rem;
@@ -184,6 +185,13 @@ textarea::placeholder{
     justify-content: flex-end;
     gap: 10px;
     font-size: 20px;
+}
+
+button{
+    background-color: #7fff73;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
 }
 
 .write_btn a{

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>글쓰기</title>
+    <title>게시글 수정</title>
 
     <link rel="stylesheet" href="/css/write.css">
 </head>
@@ -21,7 +21,7 @@
                 <h2>TRENDING</h2>
                 <H2>VAULT</H2>
                 <div class="side_btn">
-                    <a href="/Mi01.html"><button>홈</button></a>
+                    <button><a href="../Mi01.html">홈</button></a>
                     <button><a href="/side/Challenge.html">★ 챌린지 ★</button></a>
                     <button>★ 글모음 ★</button>
                     <button>★ OTT ★</button>
@@ -45,11 +45,11 @@
                     </div>
                 </div>
 
-                <form method="post" onsubmit="submitBoard(event)">
+                <form method="post" onsubmit="updateBoard()">
                     <div class="body_box">
                         <div class="header_box">
-                            <h1>Q & A 게시판 - 새글 쓰기</h1>
-                            <p>자유롭게 질의응답을 해보세요.</p>
+                            <h1>Q & A 게시판 - 게시글 수정</h1>
+                            <p>게시글을 수정해보세요.</p>
                         </div>
                         <div class="big_text_box">
                             <p>제목</p>
@@ -67,7 +67,7 @@
                         </div>
 
                         <div class="write_btn">
-                            <button type="submit">등록</button>
+                            <button type="submit">수정완료</button>
                             <a href="/side/QnA.html">취소</a>
                         </div>
                     </div>

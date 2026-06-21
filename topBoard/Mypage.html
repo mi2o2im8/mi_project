@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마이페이지</title>
+
+<link rel="stylesheet" href="../css/Mypage.css">
+
+<link rel="stylesheet" href="../css">
+</head>
+<body>
+
+    <form method="POST" enctype="multipart/form-data">
+    <div class="page_big_box">
+    <a id="go_home" href="../Mi01.html"></a>
+
+    <h1>마이페이지</h1>
+
+    <h3>프로필 설정</h3>
+
+    <div class="img_box">
+        <img id="my_img" src="../image/2026_낙서_1.jpg" alt="프로필 이미지">
+        <input id="img_selet_btn" type="file" name="img" accept="image/*">
+    </div>
+
+    <div>
+        <h3>닉네임 설정</h3>
+        <input id="nickname" type="text" name="nickname" placeholder="닉네임 입력">
+    </div>
+
+    <div>
+        <textarea id="text_box" name="intro" placeholder="자기소개를 시작해보아요!"></textarea>
+    </div>
+
+    <button id="save_btn" type="submit">저장하기</button>
+</div>
+</form>

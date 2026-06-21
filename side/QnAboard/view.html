@@ -48,46 +48,56 @@
      다른 사용자가 이를 리스트 UI로 조회하며, 각 게시글에 댓글을 작성할 수 있는 기능을 개발하여 
      실제 서비스와 유사한 형태의 웹 서비스를 구현합니다. -->
 
-                <div class="body_box">
+                <div class="view_body_box">
                     <div class="header_box">
                         <h1>Q & A 게시판 - 상세글 보기</h1>
                         <p>자유롭게 의견을 나눠보세요.</p>
                         <p id="point_p">단, 비방과 욕설 포함시 삭제 처리 될 수 있습니다.</p>
                     </div>
                     <div class="title_write_box">
-                        <div class="title">
+                        <div class="title" id="title_Memo">
                             안녕하새우
+                        </div>
                         <div class="shrimp_box">
                             <dl>
                                 <dt>번호</dt>
-                                <dd class="col_1">1</dd>
+                                <dd class="col_1" id="no">1</dd>
                             </dl>
                             <dl>
                                 <dt>닉네임</dt>
-                                <dd class="col_2">새우</dd>
+                                <dd class="col_2" id="writer">새우</dd>
                             </dl>
                             <dl>
                                 <dt>작성일</dt>
-                                <dd class="col_3">27.06.19</dd>
+                                <dd class="col_3" id="date">27.06.19</dd>
                             </dl>
                             <dl>
                                 <dt>조회</dt>
-                                <dd class="col_4">25</dd>
+                                <dd class="col_4" id="hit">25</dd>
                             </dl>
                         </div>
-                        <div class="text_log">
+                        <div class="text_log" id="content">
                             안녕 여러분~<br>
                             새로 온 트린인데요,<br>
                             새우 자료가 어디있지요?
                         </div>
                     </div>
-                </div>
 
                     <div class="write_btn">
                         <a href="">목록</a>
-                        <a href="/side/QnA.html">수정</a>
+                        <a href="/side/QnAboard/edit.html?no=3">수정</a>
+                        <a href="/backend/board/deletBoard.php?no=3">삭제</a>
                     </div>
-                
+                    
+                    <div class="view_comment">
+                        <textarea id="commentInput" placeholder="댓글 입력"></textarea>
+                        <button id="upload_btn">등록</button>
+                    </div>
+                    <div class="comment_list">
+                        <div class="comment_name">래빗</div>
+                        <div class="comment_text">댓글 내용</div>
+                    </div>
+                </div>
 
 
                 </div>
