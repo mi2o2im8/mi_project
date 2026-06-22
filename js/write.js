@@ -14,8 +14,8 @@ function submitBoard(e){
     }
 
     var jsonData= JSON.stringify(data);
-
-    fetch('/backend/board/insertBoard.php',{
+// ../backend/board/insertBoard.php
+    fetch('../../backend/board/insertBoard.php',{
         method:'POST',
         headers:{'Content-Type':'application/json'},
         body: JSON.stringify(data)

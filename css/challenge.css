@@ -63,11 +63,26 @@
     text-decoration: none;
 }
 
+#login_btn{
+    width: 30px;
+    height: 30px;
+
+    border: 2px solid rgb(0, 89, 255);
+}
+
+.Mypage_icon{
+    display: block;
+    width: 80px;
+    margin-top: -0.3rem;
+    background-size: cover;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 #push{
     width: 50px;
     padding: 10px;
-    background-image: url("/Me2/image/push_1.png");
-    /* background: #ffce83dc; */
+    margin-top: -0.8rem;
     border-radius: 5px;
     text-decoration: none;
 }

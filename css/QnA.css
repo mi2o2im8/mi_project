@@ -65,11 +65,15 @@
     text-decoration: none;
 }
 
-#Mypage_icon{
+#login_btn{
+    width: 30px;
+    height: 30px;
+}
+
+.Mypage_icon{
     display: block;
-    width: 50px;
-    padding: 10px;
-    background-image: url("../image/home_btn.png");
+    width: 80px;
+    margin-top: -0.3rem;
     background-size: cover;
     border-radius: 5px;
     text-decoration: none;
@@ -78,8 +82,7 @@
 #push{
     width: 50px;
     padding: 10px;
-    background-image: url("../image/push_1.png");
-    /* background: #ffce83dc; */
+    margin-top: -0.8rem;
     border-radius: 5px;
     text-decoration: none;
 }

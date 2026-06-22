@@ -1,5 +1,5 @@
 <?php
-    header('Content-Type:text/plain; charset=utf-8')lcfirst;
+    header('Content-Type:text/plain; charset=utf-8');
 
     $no= $_POST['no'];
 

@@ -11,4 +11,6 @@ fetch(url)
     document.querySelector('.col_3').innerHTML= json.date;
     document.querySelector('.col_4').innerHTML= json.hit;
     document.querySelector('#content').innerHTML= json.content;
+
+    loadComments();
 })

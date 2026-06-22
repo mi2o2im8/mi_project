@@ -50,6 +50,11 @@
     height: 40px;
 }
 
+#search_btn{
+    width: 30px;
+    height: 30px;
+}
+
 .header_login_box{
     grid-column: 3;
     justify-self: end;
